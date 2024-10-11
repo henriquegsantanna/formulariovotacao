@@ -3,39 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Votação</title>
 </head>
 <body>
     <header>
         <h1>Qual o melhor aparelho para utilizar no trabalho?</h1>
+        <br>
     </header>
-    <p>Seja bem-vindo(a) a nossa pesquisa anônima com o tema: Qual é o melhor aparelho para utilizar no trabalho?
-        Fique tranquilo(a), nenhum desses dados serão utilizados para pesquisas externas. Este é apenas um website para teste de conhecimentos em HTML, CSS, JavaScript e Banco de Dados.</p>
+    <p>Seja bem-vindo(a) a nossa pesquisa anônima com o tema: <strong>Qual é o melhor aparelho para utilizar no trabalho?</strong>
+        <br>Fique tranquilo(a), nenhum desses dados serão utilizados para pesquisas externas. Este é apenas um website para teste de conhecimentos em HTML, CSS, JavaScript e Banco de Dados.</p>
+        <br>
 
         <form>
-            
+
             <label for="nome">Digite o seu nome:</label>
             <input type="text" id="nome" name="nome">
-
+            <br><br>
             <p>Qual a sua idade?</p>
             <input type="radio" id="-18" name="idade" value="-18">
             <label for="-18">-18</label><br>
-
+            
             <input type="radio" id="18-24" name="idade" value="18-24">
             <label for="18-24">18 - 24</label><br>
-
+            
             <input type="radio" id="25-29" name="idade" value="25-29">
             <label for="25-29">25 - 29</label><br>
-
+            
             <input type="radio" id="30-39" name="idade" value="30-39">
             <label for="30-39">30 - 39</label><br>
-
+            
             <input type="radio" id="40-49" name="idade" value="40-49">
             <label for="40-49">40 - 49</label><br>
-
+            
             <input type="radio" id="50+" name="idade" value="50+">
-            <label for="50+">50+</label><br>
-
+            <label for="50+">50+</label>
+            <br><br>
             <p>Você utiliza ou já utilizou algum aparelho no seu trabalho?</p>
             <input type="radio" id="utiliza" name="utilizacao" value="Utilizo">
             <label for="utiliza">Utilizo</label><br>
@@ -48,30 +51,36 @@
 
             <label for="qualaparelho">Se sim, qual?</label>
             <input type="text" id="qualaparelho" name="aparelho">
-
+            <br><br>
             <p>Na sua opinião, qual desses aparelhos é o melhor para utilizar no trabalho?</p>
             <img src="macbook.jpg" alt="MacBook" width="200">
             <input type="radio" id="macbook" name="melhoraparelho" value="MacBook">
-            <label for="macbook">MacBook</label><br>
+            <label for="macbook">MacBook</label><br><br>
 
             <img src="notedell.jpg" alt="MacBook" width="200">
             <input type="radio" id="dell" name="melhoraparelho" value="Dell">
-            <label for="dell">Notes da Dell</label><br>
+            <label for="dell">Notes da Dell</label><br><br>
 
             <img src="notesamsung.jpg" alt="MacBook" width="200">
             <input type="radio" id="samsung" name="melhoraparelho" value="Samsung">
-            <label for="samsung">Notes da Samsung</label><br>
+            <label for="samsung">Notes da Samsung</label><br><br>
 
             <img src="iPad.jpg" alt="MacBook" width="200">
             <input type="radio" id="iPad" name="melhoraparelho" value="iPad">
-            <label for="iPad">iPad (Apple)</label><br>
+            <label for="iPad">iPad (Apple)</label><br><br>
 
             <img src="tablet.jpg" alt="MacBook" width="200">
             <input type="radio" id="Tablet" name="melhoraparelho" value="Tablet">
-            <label for="Tablet">Tablet (Samsung)</label><br>
+            <label for="Tablet">Tablet (Samsung)</label><br><br>
 
             <label for="outro">Outro:</label>
             <input type="text" id="outroaparelho" name="outro">
+            <br>
+            <br>
+            <br>
+            <br>
+            <button type="submit">Enviar formulário</button>
+
         </form>
 </body>
 </html>

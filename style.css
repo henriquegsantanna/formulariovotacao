@@ -1,0 +1,9 @@
+body {
+    background-color: bisque;
+    text-align: center;
+    display: flexbox;
+}
+
+header {
+    margin-top: 100px;
+}
